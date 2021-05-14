@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Liga BBVA</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_clasificacion">Clasificación</string>
+    <string name="title_activity_proximo_evento">Siguiente Jornada</string>
+    <string name="title_activity_equipo">Equipo</string>
+    <string name="title_activity_busqueda_equipo">Búsqueda</string>
+</resources>

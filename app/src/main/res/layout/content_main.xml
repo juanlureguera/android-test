@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/background">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clasificación"
+        android:id="@+id/btnTabla"
+        android:onClick="ir_a_clasificacion"
+        android:height="50dp"
+        android:width="135dp"
+        android:textSize="13dp"
+        android:layout_above="@+id/buttonPP"
+        android:layout_alignLeft="@+id/buttonPP"
+        android:layout_alignStart="@+id/buttonPP"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proximos partidos"
+        android:id="@+id/buttonPP"
+        android:onClick="ir_a_proximos_eventos"
+        android:height="50dp"
+        android:width="135dp"
+        android:textSize="13dp"
+        android:layout_above="@+id/buttonB"
+        android:layout_alignLeft="@+id/buttonB"
+        android:layout_alignStart="@+id/buttonB"
+        android:enabled="false"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Búsqueda"
+        android:id="@+id/buttonB"
+        android:onClick="ir_a_busqueda"
+        android:height="50dp"
+        android:width="135dp"
+        android:textSize="13dp"
+        android:layout_marginBottom="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
